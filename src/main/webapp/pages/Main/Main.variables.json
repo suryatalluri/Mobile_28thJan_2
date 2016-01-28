@@ -1,0 +1,30 @@
+{
+  "CaptureImage" : {
+    "_id" : "wm-CaptureImage-wm.DeviceVariable-1453973095480",
+    "name" : "CaptureImage",
+    "owner" : "Page",
+    "category" : "wm.DeviceVariable",
+    "dataBinding" : [ {
+      "target" : "allowImageEdit",
+      "value" : false,
+      "type" : "boolean"
+    }, {
+      "target" : "imageQuality",
+      "value" : 80,
+      "type" : "number"
+    }, {
+      "target" : "imageEncodingType",
+      "value" : "0",
+      "type" : "list"
+    }, {
+      "target" : "correctOrientation",
+      "value" : true,
+      "type" : "boolean"
+    } ],
+    "service" : "camera",
+    "operation" : "captureImage",
+    "dataSet" : {
+      "imagePath" : "resources/images/imagelists/default-image.png"
+    }
+  }
+}
